@@ -4,10 +4,9 @@
   "description": "",
   "main": "index.js",
   "keywords": [],
-  "files": [
-    "base.json",
-    "api.json"
-  ],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "publishConfig": {
+    "access": "public"
+  }
 }
