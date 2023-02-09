@@ -5,7 +5,7 @@ importers:
   .:
     specifiers:
       eslint: ^8.33.0
-      eslint-custom: workspace:*
+      eslint-config-custom: workspace:*
       npm-run-all: ^4.1.5
       prettier: ^2.8.4
       prettier-plugin-tailwindcss: ^0.2.2
@@ -13,7 +13,7 @@ importers:
       typescript: ^4.9.5
     devDependencies:
       eslint: 8.33.0
-      eslint-custom: link:package/eslint-custom
+      eslint-config-custom: link:package/eslint-config-custom
       npm-run-all: 4.1.5
       prettier: 2.8.4
       prettier-plugin-tailwindcss: 0.2.2_prettier@2.8.4
@@ -29,7 +29,7 @@ importers:
       '@types/node': ^18.13.0
       cors: ^2.8.5
       dotenv: ^16.0.3
-      eslint-custom: workspace:*
+      eslint-config-custom: workspace:*
       express: ^4.18.2
       nodemon: ^2.0.20
       tsconfig: workspace:*
@@ -43,11 +43,11 @@ importers:
       '@types/cors': 2.8.13
       '@types/express': 4.17.17
       '@types/node': 18.13.0
-      eslint-custom: link:../../package/eslint-custom
+      eslint-config-custom: link:../../package/eslint-config-custom
       nodemon: 2.0.20
       tsconfig: link:../../package/tsconfig
 
-  package/eslint-custom:
+  package/eslint-config-custom:
     specifiers:
       '@remix-run/eslint-config': ^1.12.0
       eslint-config-prettier: ^8.6.0
@@ -56,6 +56,9 @@ importers:
       '@remix-run/eslint-config': 1.12.0
       eslint-config-prettier: 8.6.0
       eslint-config-turbo: 0.0.7
+
+  package/tsconfig:
+    specifiers: {}
 
 packages:
 

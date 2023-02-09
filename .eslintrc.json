@@ -1,0 +1,18 @@
+{
+  "root": true,
+  "env": {
+    "es2021": true
+  },
+  "extends": ["custom"],
+  "parser": "@typescript-eslint/parser",
+  "settings": {
+    "node": {
+      "tryExtensions": [".js", ".json", ".node", ".ts"]
+    },
+    "next": {
+      "rootDir": ["apps/*/"]
+    }
+  },
+  "plugins": ["react", "@typescript-eslint"],
+  "ignorePatterns": ["**/node_modules/", "**/dist/"]
+}
