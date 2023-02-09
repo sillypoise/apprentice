@@ -16,6 +16,7 @@
   },
   "devDependencies": {
     "tsconfig": "workspace:*",
+    "eslint-custom": "workspace:*",
     "nodemon": "^2.0.20"
   }
 }
